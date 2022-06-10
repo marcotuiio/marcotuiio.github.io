@@ -32,6 +32,17 @@
       "forca": 90,
       "dataAtualizacaoForca": "2022-03-26",
       "qtd_estrelinhas": 12
+    },
+    {
+      "codigo": "7gc4A",
+      "nome_fantasia": "Tutorial de Programação",
+      "disciplina": "Progrmação",
+      "professor": "Nome Prof",
+      "datainicio": "2022-02-24",
+      "datafim": "2022-03-01",
+      "forca": 4,
+      "dataAtualizacaoForca": "2022-03-26",
+      "qtd_estrelinhas": 2
     }
   ]
 }
