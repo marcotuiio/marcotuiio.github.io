@@ -1,0 +1,15 @@
+{
+    "jogos": [
+        {
+            "codigo": "6s3k8",
+            "nome_fantasia": "A crise do petróleo",
+            "disciplina": "Geopolitica",
+            "professor": "Sr regis",
+            "datainicio": "2022-06-24",
+            "datafim": "2022-06-30",
+            "forca": 100,
+            "dataAtualizacaoForca": "2022-06-24",
+            "qtd_estrelinhas": 0
+        }
+    ]
+}
