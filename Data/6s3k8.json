@@ -5,11 +5,11 @@
             "nome_fantasia": "A crise do petróleo",
             "disciplina": "Geopolitica",
             "professor": "Sr regis",
-            "datainicio": "2022-06-24",
-            "datafim": "2022-06-30",
+            "datainicio": "2022-07-02",
+            "datafim": "2022-07-08",
             "forca": 100,
-            "dataAtualizacaoForca": "2022-06-24",
-            "dataAtual": "2022-03-26",
+            "dataAtualizacaoForca": "2022-07-01",
+            "dataAtual": "2022-07-02",
             "tentativas_diarias": 0,
             "qtd_estrelinhas": 0
         }
