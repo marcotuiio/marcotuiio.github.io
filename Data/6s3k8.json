@@ -10,7 +10,8 @@
             "forca": 100,
             "dataAtualizacaoForca": "2022-07-01",
             "dataAtual": "2022-07-02",
-            "tentativas_diarias": 0,
+            "tentativas_estrelas": 0,
+            "tentativas_forca": 0,
             "qtd_estrelinhas": 0
         }
     ]
