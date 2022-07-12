@@ -1,7 +1,7 @@
 {
     "questoes": [
         {
-            "data_resposta": "2022-07-05",
+            "data_resposta": "nda",
             "tentativas": 10,
             "id": 90,
             "question": " O organizador de uma competição de lançamento de dardos pretende tornar o campeonato mais competitivo. Pelas regras atuais da competição, numa rodada, o jogador lança 3 dardos e pontua caso acerte pelo menos um deles no alvo. O organizador considera que, em média, os jogadores têm, em cada lançamento, 1/2 de probabilidade de acertar um dardo no alvo. A fim de tornar o jogo mais atrativo, planeja modificar as regras de modo que a probabilidade de um jogador pontuar em uma rodada seja igual ou superior a 9/10. Para isso, decide aumentar a quantidade de dardos a serem lançados em cada rodada. Com base nos valores considerados pelo organizador da competição, a quantidade mínima de dardos que devem ser disponibilizados em uma rodada para tornar o jogo mais atrativo é",
@@ -12,7 +12,7 @@
                 "resposta 04"
             ],
             "answer_index": 1,
-            "usado": 1,
+            "usado": 0,
             "comentario": "dica 90"
         },
         {
