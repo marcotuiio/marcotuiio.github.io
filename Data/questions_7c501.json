@@ -1,0 +1,244 @@
+{
+    "questoes": [
+        {
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 1,
+            "question": "Qual a melhor definição de um TAD (tipo abstrato de dados)?",
+            "options": [
+                "Um formato que abrange alguma estrutura de dados",
+                "Um conjunto de valores e um conjunto de operações sobre esses valores",
+                "O método que seu compilador executa um código",
+                "O conjunto de comentários que explica o funcionamento do código"
+            ],
+            "answer_index": 1,
+            "usado": 0,
+            "comentario": "dica 90"
+        },
+        {
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 2,
+            "question": "O que é a modularização de um projeto de programação?",
+            "options": [
+                "É a formatação modular de acordo com as boas maneiras de cada linguagem",
+                "Utilização da operação módulo (norma) em todos os números e respectivas operações com ele",
+                "Manter todo o programa em um único bloco de código (main)",
+                "Partir todo o projeto em partes menores e reutilizáveis, de modo a facilitar a compreensão e aplicação do projeto."
+            ],
+            "answer_index": 3,
+            "usado": 0,
+            "comentario": "dica 20"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 3,
+            "question": "Considerando as operações de incremento,qual a saída da operação abaixo? (Linguagem C):  int x = 10; int y = x++; int z = ++x; printf(x = %d, y = %d, z = %d\n, x, y, z); ",
+            "options": [
+                "x = 10, y = 11, z = 12",
+                "x = 12, y = 11, z = 12",
+                "x = 12, y = 10, z = 12",
+                "x = 10, y = 11, z = 11"
+            ],
+            "answer_index": 2,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 4,
+            "question": "Dada a fila estática, considere",
+            "options": [
+                "O primeiro elemento inserido é o último a ser removido (FILO)",
+                "O último elemento foi o primeiro a ser inserido",
+                "O primeiro elemento inserido é o primeiro a ser removido (FIFO)",
+                "O último elemento é o primeiro a ser removido"
+            ],
+            "answer_index": 2,
+            "usado": 0,
+            "comentario": "dica 61"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 5,
+            "question": "Este registro se refere a aplicação de qual estrutura de dado vista em aula? -- struct ed {int entrance, front, rear, maxsize; void** data;}",
+            "options": [
+                "Fila estática",
+                "Pilha",
+                "Lista dinâmica duplamente encadeada",
+                "Fila dinâmica"
+            ],
+            "answer_index": 0,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 6,
+            "question": "Este registro se refere a aplicação de qual estrutura de dado vista em aula? -- struct ed {struct ed *prev, *next; void* data;}",
+            "options": [
+                "Fila estática",
+                "Pilha",
+                "Lista dinâmica duplamente encadeada",
+                "Fila dinâmica"
+            ],
+            "answer_index": 2,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 7,
+            "question": "O que é, respectivamente, argc e argv na linguagem C?",
+            "options": [
+                "São parâmetros de entrada em que argc corresponde a um inteiro (int) e argv um vetor de strings (char**)",
+                "São parâmetros de entrada em que argc corresponde a um vetor de strings (char**) e argv um inteiro (int)",
+                "São valores imutáveis definidos diretamente no arquivo fonte",
+                "São constantes de saída comuns em todos os projetos (quando modularizados)"
+            ],
+            "answer_index": 0,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 8,
+            "question": "Como usar um void* (ponteiro do tipo void em C)?",
+            "options": [
+                "Não existe esse tipo de ponteiro, pois é impossível apontar para o vazio",
+                "Um ponteiro que pode apontar para qualquer tipo de informação, dependendo de um cast",
+                "Uma declaração alternativa para int* (ponteiro para int)",
+                "Um ponteiro apenas para structs"
+            ],
+            "answer_index": 1,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 9,
+            "question": "Qual desses é um método de ordenação?",
+            "options": [
+                "Ordination sort",
+                "First term sort",
+                "Last term sort",
+                "n.d.a"
+            ],
+            "answer_index": 3,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 10,
+            "question": "Qual desses é o método mais eficiente de ordenação (para valores nos bilhões)?",
+            "options": [
+                "Insertion sort",
+                "Bubble sort",
+                "Quicksort",
+                "Merge sort"
+            ],
+            "answer_index": 2,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 11,
+            "question": "Dadas as complexidades de algoritmo, qual deve ser escolhido em uma determinada aplicação?",
+            "options": [
+                "O(2^n)",
+                "O(log(n))",
+                "O(n³)",
+                "Todas as alternativas são equivalentes"
+            ],
+            "answer_index": 1,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 12,
+            "question": "Qual a melhor definição para recursividade?",
+            "options": [
+                "Uma operação com vários recursos",
+                "Uma função com várias variáveis",
+                "Uma função de uso único",
+                "Uma definição que se define em termos de si mesma (repetição)"
+            ],
+            "answer_index": 3,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 13,
+            "question": "São exemplos de aplicação para recursão:",
+            "options": [
+                "Fibonnacci",
+                "Fatorial",
+                "Quicksort",
+                "Todas as alternativas"
+            ],
+            "answer_index": 3,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 14,
+            "question": "Qual a funcionalidade dos arquivos .h (ponto h) na linguagem C?",
+            "options": [
+                "Idêntico a um arquivo .c (ponto c)",
+                "São as bibliotecas padrão da linguagem C e apenas isso",
+                "Arquivos para estabelecer um contrato com o usuário final, definindo o TAD",
+                "São arquivos para armazenar a implementação de funções (o código delas)"
+            ],
+            "answer_index": 2,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 15,
+            "question": "O que é uma árvore binária?",
+            "options": [
+                "Um conjunto infinito de elementos que está vazio ou dividido em 3 subconjuntos disjuntos",
+                "Um conjunto finito de elementos que está vazio ou dividido em 3 subconjuntos disjuntos",
+                "Um conjunto finito de elementos que está vazio ou dividido em n subconjuntos disjuntos",
+                "Uma lista com n elementos;"
+            ],
+            "answer_index": 1,
+            "usado": 0,
+            "comentario": "dica 30"
+        },
+        {   
+            "data_resposta": "nda",
+            "tentativas": 0,
+            "id": 16,
+            "question": "Qual foi a arquitetura apresentada nas aulas iniciais de Estruturas de Dados I:",
+            "options": [
+                "Arquitetura GCC",
+                "Arquitetura de Von Neumann",
+                "Arquitetura RM",
+                "Arquitetura Prime Info"
+            ],
+            "answer_index": 1,
+            "usado": 0,
+            "comentario": "dica 30"
+        }
+    ]
+}
