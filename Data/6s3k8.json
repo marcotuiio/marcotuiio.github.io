@@ -2,14 +2,14 @@
     "jogos": [
         {
             "codigo": "6s3k8",
-            "nome_fantasia": "A crise do petróleo",
-            "disciplina": "Geopolitica",
-            "professor": "Sr regis",
-            "datainicio": "2022-07-15",
-            "datafim": "2022-07-21",
-            "forca": 100,
-            "dataAtualizacaoForca": "2022-07-14",
-            "dataAtual": "2022-07-15",
+            "nome_fantasia": "Feira de Profissões 2022",
+            "disciplina": "Feirinha da diversão",
+            "professor": "Sra Uel",
+            "datainicio": "2022-09-02",
+            "datafim": "2022-09-08",
+            "forca": 50,
+            "dataAtualizacaoForca": "2022-09-01",
+            "dataAtual": "2022-09-02",
             "tentativas_estrelas": 0,
             "tentativas_forca": 0,
             "qtd_estrelinhas": 0
