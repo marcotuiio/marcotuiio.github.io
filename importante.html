@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MT- MUITO IMPORTANTE</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(function () {
+			$(".button.tricky").on({
+				mouseover: function () {
+					$(this).css({
+						left: (Math.random() * 90) + "%",
+						top: (Math.random() * 90) + "%",
+					});
+				}
+			});
+			$(".btn-wrap").hover(function () {
+				$(this).toggleClass('active');
+			});
+		});
+
+		$('.button.tricky').bind('touchstart', function () {
+			$(this).css({
+				left: (Math.random() * 90) + "%",
+				top: (Math.random() * 90) + "%"
+			});
+		});
+	</script>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background-color: blue;
+		}
+		h1 {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		.button {
+			display: inline-block;
+			background-color: white;
+			color: black;
+			border: none;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 18px;
+			border-radius: 5px;
+			cursor: pointer;
+			margin: 10px;
+			transition: background-color 0.3s ease;
+		}
+		.button.tricky {
+			position: absolute;
+			left: 49.5%;
+			top: 65%;
+			transform: translate(-50%, -50%);
+			transition: left 0.3s ease, top 0.3s ease;
+		}
+		.button:hover {
+			background-color: red;
+		}
+		</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>A NAT É TOP PESSOAS MAIS INCRIVEIS DO MUNDO?</h1>
+		<a class="button" href="https://www.youtube.com/watch?v=orWnzqBA63w">OBVIOO!!</a>
+		<a class="button tricky">Não</a>
+	</div>
+</body>
+
+</html>
