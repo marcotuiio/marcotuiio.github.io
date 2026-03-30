@@ -28,6 +28,17 @@
 				top: (Math.random() * 90) + "%"
 			});
 		});
+
+		function openTwoLinks() {
+			const firstUrl = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOG_zgW6NW4ZRSHJ0EyBRFbec5RbhNij7Iw&s';
+			const secondUrl = 'https://www.youtube.com/watch?v=FkOpwodhROI';
+
+			// Open one URL in a new tab (allowed on user click), then use current tab for the second.
+			window.open(firstUrl, '_blank');
+			window.location.href = secondUrl;
+		}
+
+		
 	</script>
 	<style>
 		.container {
@@ -36,7 +47,7 @@
 			justify-content: center;
 			align-items: center;
 			min-height: 100vh;
-			background-color: blue;
+			background-color: rgb(196, 23, 235);
 		}
 		h1 {
 			margin-bottom: 30px;
@@ -72,7 +83,8 @@
 <body>
 	<div class="container">
 		<h1>A BIANKA (AKA PCP REPET) É A MELHOR DE TODAS NO UNIVERSO TODINHO???</h1>
-		<a class="button" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOG_zgW6NW4ZRSHJ0EyBRFbec5RbhNij7Iw&s">SIM OBVIO COM CERTEZA :D</a>
+		<!-- <a class="button" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOG_zgW6NW4ZRSHJ0EyBRFbec5RbhNij7Iw&s">SIM OBVIO COM CERTEZA :D</a> -->
+		<button class="button" onclick="openTwoLinks()">SIM OBVIO COM CERTEZA :D</button>
 		<a class="button tricky">nÃOo AF</a>
 	</div>
 </body>
